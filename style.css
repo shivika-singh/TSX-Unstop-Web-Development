@@ -1,10 +1,45 @@
-/* Style for heading */
-h1 {
-    color: darkcyan;
+/* General reset and base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Style for paragraph */
-p {
-    font-size: 18px;
-    font-family: Arial, sans-serif;
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main and article styling */
+main {
+    padding: 20px;
+}
+
+article {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
 }
