@@ -1,0 +1,10 @@
+/* Style for heading */
+h1 {
+    color: darkcyan;
+}
+
+/* Style for paragraph */
+p {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
